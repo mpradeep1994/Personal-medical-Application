@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="414.0" prefWidth="728.0" stylesheets="@view.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.patientController">
+
+<!-- TODO Add Nodes -->
+  <children>
+      <ImageView fitHeight="423.0" fitWidth="733.0" layoutX="-6.0">
+         <image>
+            <Image url="@../../images/background.jpg" />
+         </image>
+      </ImageView>
+    <Text fill="#fcfafa" layoutX="40.0" layoutY="76.0" scaleX="1.6282963885587562" scaleY="1.7794244370883794" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome, ">
+      <font>
+        <Font name="Times New Roman Bold" size="12.0" />
+      </font>
+    </Text>
+    <Label fx:id="uname" layoutX="117.0" layoutY="57.0" prefHeight="28.64630126953125" prefWidth="147.0" textFill="WHITE">
+      <font>
+        <Font name="Times New Roman Bold" size="21.0" />
+      </font>
+    </Label>
+      <Label layoutX="14.0" layoutY="369.0" text="Date :">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="date" layoutX="53.0" layoutY="369.0" prefHeight="20.0" prefWidth="189.0" text="Date :">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="250.0" layoutY="130.0" mnemonicParsing="false" onAction="#viewPrescription" prefHeight="35.0" prefWidth="272.0" text="Your Prescription " />
+      <Button layoutX="250.0" layoutY="235.0" mnemonicParsing="false" onAction="#viewfPrescription" prefHeight="35.0" prefWidth="272.0" text="Family Member Prescription" />
+      <Button layoutX="247.0" layoutY="180.0" mnemonicParsing="false" onAction="#view" prefHeight="35.0" prefWidth="272.0" text="View /Update Profile" />
+      <Button layoutX="250.0" layoutY="288.0" mnemonicParsing="false" onAction="#writeReview" prefHeight="35.0" prefWidth="272.0" text="Write Review" />
+      <Button layoutX="584.0" layoutY="362.0" mnemonicParsing="false" onAction="#logout" prefHeight="35.0" prefWidth="107.0" text="LOGOUT" />
+  
+   </children>
+</AnchorPane>

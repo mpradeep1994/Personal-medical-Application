@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="390.0" prefWidth="476.0" stylesheets="@view.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.writeReviewController">
+   <children>
+      <ImageView fitHeight="422.0" fitWidth="701.0">
+         <image>
+            <Image url="@../../images/background.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="290.0" layoutY="83.0" text="WRITE REVIEW">
+         <font>
+            <Font name="Times New Roman Bold" size="22.0" />
+         </font>
+      </Label>
+      <Text fill="#fffdfd" layoutX="109.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MEDICINE NAME :">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="160.0" layoutY="217.0" strokeType="OUTSIDE" strokeWidth="0.0" text="REVIEW :" wrappingWidth="63.173828125">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <ComboBox fx:id="mname" layoutX="265.0" layoutY="131.0" prefWidth="150.0" />
+      <TextArea fx:id="mreview" layoutX="265.0" layoutY="179.0" prefHeight="114.0" prefWidth="242.0" promptText="Enter your Medication Experience" />
+      <Button layoutX="234.0" layoutY="336.0" mnemonicParsing="false" onAction="#writeReview" prefHeight="35.0" prefWidth="138.0" text="Submit" />
+      <Button layoutX="415.0" layoutY="329.0" mnemonicParsing="false" onAction="#save" prefHeight="35.0" prefWidth="122.0" text="Back" />
+      <Label fx:id="error" layoutX="189.0" layoutY="104.0">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

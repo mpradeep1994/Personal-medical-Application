@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="444.0" prefWidth="754.0" style="-fx-background-image: url(&quot;../images/background.jpg&quot;);;" stylesheets="@view.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.entryController">
+  <!-- TODO Add Nodes -->
+  <children>
+      <ImageView fitHeight="415.0" fitWidth="757.0" layoutX="-3.0" layoutY="29.0">
+         <image>
+            <Image url="@../../images/background.jpg" />
+         </image>
+      </ImageView>
+    <Label contentDisplay="CENTER" layoutX="273.0" layoutY="126.0" prefHeight="50.0" prefWidth="200.0" text="WELCOME TO PERSONAL">
+      <font>
+        <Font name="Times New Roman Bold" size="18.0" fx:id="x1" />
+      </font>
+    </Label>
+    <Label font="$x1" layoutX="332.0" layoutY="176.0" prefHeight="35.0" prefWidth="66.0" text="MEDICAL" />
+    <Label font="$x1" layoutX="314.0" layoutY="219.0" prefHeight="33.0" prefWidth="101.0" text="ASSISSTANCE" />
+    <Button layoutX="282.0" layoutY="265.0" mnemonicParsing="false" onAction="#enter" prefHeight="33.0" prefWidth="182.0" text="CLICK TO START" />
+    <TextArea editable="false" layoutX="263.0" layoutY="325.0" prefHeight="76.0" prefWidth="220.0" text="DESIGN AND IMPLEMENTED BY&#10;      PRADEEP RAJA MOHAN &#10;                  A20370429" wrapText="true" />
+  <MenuBar layoutX="-7.0" layoutY="-3.0" prefHeight="35.0" prefWidth="760.0">
+    <menus>
+      <Menu mnemonicParsing="false" text="File">
+        <items>
+          <MenuItem mnemonicParsing="false" onAction="#close" text="Close" />
+        </items>
+      </Menu>
+      <Menu mnemonicParsing="false" text="How To Run">
+        <items>
+          <MenuItem mnemonicParsing="false" onAction="#credits" text="credits" />
+        </items>
+      </Menu>
+    </menus>
+  </MenuBar>
+  </children>
+</AnchorPane>
