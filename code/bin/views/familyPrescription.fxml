@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="376.0" prefWidth="565.0" stylesheets="@view.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.viewfPrescription">
+   <children>
+      <ImageView fitHeight="402.0" fitWidth="698.0">
+         <image>
+            <Image url="@../../images/background.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="278.0" layoutY="343.0" mnemonicParsing="false" onAction="#save" prefHeight="30.0" prefWidth="142.0" text="Back" />
+      <TableView fx:id="fprescription" editable="true" layoutX="28.0" layoutY="52.0" prefHeight="286.0" prefWidth="642.0" />
+   </children>
+</AnchorPane>

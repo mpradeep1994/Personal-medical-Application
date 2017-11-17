@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="445.0" prefWidth="702.0" stylesheets="@view.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.viewUpdateProfile">
+   <children>
+      <ImageView fitHeight="490.0" fitWidth="718.0" layoutX="-4.0" layoutY="-2.0">
+         <image>
+            <Image url="@../../images/background.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="218.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID :">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="161.0" layoutY="197.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Last Name:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="198.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DOB :">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="200.0" layoutY="314.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Age :">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="167.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0" text="First Name :" wrappingWidth="85.98046875">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="181.0" layoutY="358.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gender :">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <TextField fx:id="id" editable="false" layoutX="274.0" layoutY="82.0" />
+      <TextField fx:id="age" editable="false" layoutX="274.0" layoutY="279.0" />
+      <TextField fx:id="lastname" layoutX="274.0" layoutY="173.0" onKeyPressed="#clear" />
+      <TextField fx:id="firstname" layoutX="274.0" layoutY="128.0" onKeyPressed="#clear" />
+      <Button layoutX="144.0" layoutY="392.0" mnemonicParsing="false" onAction="#save" prefHeight="35.0" prefWidth="161.0" text="Update" />
+      <Button layoutX="377.0" layoutY="392.0" mnemonicParsing="false" onAction="#reset" prefHeight="35.0" prefWidth="161.0" text="reset" />
+      <Hyperlink layoutX="575.0" layoutY="391.0" onAction="#back" text="BACK">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font></Hyperlink>
+      <Text fill="WHITE" layoutX="253.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="VIEW PROFILE / UPDATE PROFILE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <DatePicker fx:id="dob" layoutX="274.0" layoutY="225.0" onAction="#setdob" prefHeight="37.0" prefWidth="206.0" />
+      <RadioButton fx:id="male" layoutX="274.0" layoutY="353.0" mnemonicParsing="false" selected="true" text="MALE" textFill="WHITE">
+         <toggleGroup>
+            <ToggleGroup fx:id="gender" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="female" layoutX="393.0" layoutY="353.0" mnemonicParsing="false" text="FEMALE" textFill="WHITE" toggleGroup="$gender" />
+      <Text fx:id="error" fill="WHITE" layoutX="490.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="212.0">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
