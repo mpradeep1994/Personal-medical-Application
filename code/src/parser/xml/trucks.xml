@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE Trucks SYSTEM "trucks.dtd">
+<Trucks>
+	<truck> 
+		<TruckID>0091</TruckID>
+		<TruckNo>IC0091</TruckNo>
+		<!--EmployeeID>22</EmployeeID-->
+		<Truckdesc>
+			<Make>Benz</Make>
+			<Year>2012</Year>
+			<Model>Cruze</Model>
+			<Color>Red</Color>
+		</Truckdesc>
+		<LicensePlateNo>IC0091</LicensePlateNo>
+		<VIN>1HGBH41JXMN109186</VIN>
+	</truck>
+	
+	<truck> 
+		<TruckID>9983</TruckID>
+		<TruckNo>HY2291</TruckNo>
+		<!--EmployeeID>22</EmployeeID-->
+		<Truckdesc>
+			<Make>Benz</Make>
+			<Year>2016</Year>
+			<Model>corz</Model>
+			<Color>Black</Color>
+		</Truckdesc>
+		<LicensePlateNo>PY9983</LicensePlateNo>
+		<VIN>1HGBH41JXMN109187</VIN>
+	</truck>
+</Trucks>

@@ -1,0 +1,85 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE customers SYSTEM "customers.dtd">
+<customers>
+		<customer> 
+			<CustomerID>1000</CustomerID>
+			<CustomerTitle>Senior</CustomerTitle>
+			<BusinessName>Construction</BusinessName>
+			<Company_Name>VGN constructions</Company_Name>
+			<Contact_Name>Badri</Contact_Name>
+			<address>
+				<BillingAddress>3001 S king Drive Apt 1613</BillingAddress>
+				<City>Chicago</City>
+				<StateOrProvince>Illinois</StateOrProvince>
+				<PostalCode>60616</PostalCode>
+				<Country_Region>USA</Country_Region>
+			</address>
+			<contactdetails>
+				<contactnumber>	
+					<PhoneNumber>6466429615</PhoneNumber>
+					<CellNumber>6466429615</CellNumber>
+				</contactnumber>
+				<FaxNumber>00000</FaxNumber>
+				<EmailAddress>baddii@hawk.iit.edu</EmailAddress>
+			</contactdetails>
+			<alternatecontact>
+				<contact_number>9783459874</contact_number>
+				<Alternate_Contact_Name>narayanan</Alternate_Contact_Name>
+			</alternatecontact>
+			<DateEntered>10-02-2017</DateEntered>
+			<Eligibility>
+				<from>chicago</from>
+				<to>
+					<to_one>new york</to_one>
+					<to_two>Los Angeles</to_two>
+					<to_three>Houston</to_three>
+				</to>
+			</Eligibility>
+			<status>active</status>
+		</customer>
+	
+		<customer> 
+			<CustomerID>1001</CustomerID>
+			<CustomerTitle>Entry</CustomerTitle>
+			<BusinessName>IT Consulting</BusinessName>
+			<Company_Name>Wipro Techonologies</Company_Name>
+			<Contact_Name>dinesh</Contact_Name>
+			<address>
+				<BillingAddress>2801 S king Drive Apt 1613</BillingAddress>
+				<City>phoenix</City>
+				<StateOrProvince>arizona</StateOrProvince>
+				<PostalCode>60616</PostalCode>
+				<Country_Region>USA</Country_Region>
+			</address>
+			<contactdetails>
+				<contactnumber>	
+					<PhoneNumber>8479587378</PhoneNumber>
+					<CellNumber>3497487488</CellNumber>
+				</contactnumber>
+				<FaxNumber>03099</FaxNumber>
+				<EmailAddress>chandru@gmail.com</EmailAddress>
+			</contactdetails>
+			<alternatecontact>
+				<contact_number>9784897783</contact_number>
+				<Alternate_Contact_Name>narayanan</Alternate_Contact_Name>
+			</alternatecontact>
+			<DateEntered>13-06-2017</DateEntered>
+			<Eligibility>
+				<from>phoenix</from>
+				<to>
+					<to_one>Chicago</to_one>
+					<to_two>San Diego</to_two>
+					<to_three>Los Angeles</to_three>
+				</to>
+			</Eligibility>
+			<status>active</status>
+		</customer>
+		
+		
+</customers>
+
+
+
+
+
+

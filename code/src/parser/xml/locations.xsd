@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+         <!-- XML Schema Generated from XML Document on Fri Oct 06 2017 23:12:04 GMT-0500 (Central Daylight Time) -->
+         <!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+         <xs:element name="locations">
+               <xs:complexType>
+                     <xs:sequence>
+                           <xs:element name="location" maxOccurs="unbounded">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="locationID" type="xs:string"></xs:element>
+                                             <xs:element name="locName" type="xs:string"></xs:element>
+                                             <xs:element name="locationCode" >
+                                                
+                                  <xs:simpleType>
+                                  <xs:restriction base="xs:int">
+                                  <xs:pattern value="[0-9]{3}"/>
+                                  </xs:restriction>
+                                  </xs:simpleType>
+                                             </xs:element>
+                                             <xs:element name="isAuction"></xs:element>
+                                             <xs:element name="address">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="address_street1" type="xs:string"></xs:element>
+                                                               <xs:element name="address_street2"></xs:element>
+                                                               <xs:element name="city" type="xs:string"></xs:element>
+                                                               <xs:element name="state" type="xs:string"></xs:element>
+                                                               <xs:element name="postalCode" type="xs:int"></xs:element>
+                                                               <xs:element name="country_region" type="xs:string"></xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="locationcontact">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="location_contact_name" type="xs:string"></xs:element>
+                                                               <xs:element name="locPhone">
+                                          <xs:simpleType>                        
+                                  <xs:restriction base="xs:double">
+                                  <xs:pattern value="[0-9]{10}"/>
+                                  </xs:restriction>
+                                  </xs:simpleType>
+                                                               </xs:element>
+                                                               <xs:element name="locFaxNumber" type="xs:int"></xs:element>
+                                                               <xs:element name="locEmail" type="xs:string"></xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                     </xs:sequence>
+               </xs:complexType>
+         </xs:element>
+   </xs:schema>

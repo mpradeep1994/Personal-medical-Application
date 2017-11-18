@@ -1,0 +1,52 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE payments SYSTEM "payments.dtd">
+<payments>
+	<payment>
+		<PaymentID>P01</PaymentID>
+		<OrderID>OR99483</OrderID>
+		<PaymentMethodID>CC</PaymentMethodID>
+		<!-- <CustomerID>1000</CustomerID> EDITED --> 
+		<PaymentAmount>6500</PaymentAmount>
+		<PaymentDate>10-02-2016</PaymentDate>
+		<ChequeNumber_CreditCard>993882</ChequeNumber_CreditCard>
+		<card_details>
+			<CreditCardNumber>1234093844839938</CreditCardNumber>
+			<CardholdersName>Badri</CardholdersName>
+			<CreditCardExpDate>09/21</CreditCardExpDate>
+			<CreditCardAuthorizationNumber>221</CreditCardAuthorizationNumber>
+		</card_details>
+	</payment>
+
+	<payment>
+		<PaymentID>P02</PaymentID>
+		<OrderID>OR3323</OrderID>
+		<PaymentMethodID>CC</PaymentMethodID>
+		<!-- <CustomerID>1001</CustomerID> -->
+		<PaymentAmount>5000</PaymentAmount>
+		<PaymentDate>01-15-2017</PaymentDate>
+		<ChequeNumber_CreditCard>773847</ChequeNumber_CreditCard>
+		<card_details>
+			<CreditCardNumber>9983772899828833</CreditCardNumber>
+			<CardholdersName>dinesh</CardholdersName>
+			<CreditCardExpDate>05/19</CreditCardExpDate>
+			<CreditCardAuthorizationNumber>333</CreditCardAuthorizationNumber>
+		</card_details>
+	</payment>	
+
+	<payment>
+		<PaymentID>P03</PaymentID>
+		<OrderID>OR1234</OrderID>
+		<PaymentMethodID>CC</PaymentMethodID>
+		<!-- <CustomerID>1001</CustomerID> -->
+		<PaymentAmount>3000</PaymentAmount>
+		<PaymentDate>03-30-2017</PaymentDate>
+		<ChequeNumber_CreditCard>773847</ChequeNumber_CreditCard>
+		<card_details>
+			<CreditCardNumber>9983772899828833</CreditCardNumber>
+			<CardholdersName>dinesh</CardholdersName>
+			<CreditCardExpDate>05/19</CreditCardExpDate>
+			<CreditCardAuthorizationNumber>333</CreditCardAuthorizationNumber>
+		</card_details>
+	</payment>		
+	
+</payments>

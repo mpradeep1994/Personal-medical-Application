@@ -1,0 +1,75 @@
+<?xml encoding="UTF-8"?>
+
+
+<!ELEMENT transactions (transaction1,transaction2,transaction3,
+                        transaction4)>
+
+<!ELEMENT transaction1 (transactionID,OrderID,priceID,employeeID,
+                        transactionDate,transactionDescription,
+                        transactionAmount,truck_detail,car_details,
+                        quantity,Price_estimate,special)>
+
+<!ELEMENT transaction2 (transactionID,OrderID,priceID,employeeID,
+                        transactionDate,transactionDescription,
+                        transactionAmount,truck_detail,car_details,
+                        quantity,Price_estimate,special)>
+
+<!ELEMENT transaction3 (transactionID,OrderID,priceID,employeeID,
+                        transactionDate,transactionDescription,
+                        transactionAmount,truck_detail,car_details,
+                        quantity,Price_estimate,special)>
+
+<!ELEMENT transaction4 (transactionID,OrderID,priceID,employeeID,
+                        transactionDate,transactionDescription,
+                        transactionAmount,truck_detail,car_details,
+                        quantity,Price_estimate,special)>
+
+<!ELEMENT transactionID (#PCDATA)>
+
+<!ELEMENT OrderID (#PCDATA)>
+
+<!ELEMENT priceID (#PCDATA)>
+
+<!ELEMENT employeeID (#PCDATA)>
+
+<!ELEMENT transactionDate (#PCDATA)>
+
+<!ELEMENT transactionDescription (#PCDATA)>
+
+<!ELEMENT transactionAmount (#PCDATA)>
+
+<!ELEMENT truck_detail (TruckID,truckNo)>
+
+<!ELEMENT TruckID (#PCDATA)>
+
+<!ELEMENT truckNo (#PCDATA)>
+
+<!ELEMENT car_details (make,model,year,VIN,runNumber)>
+
+<!ELEMENT make (#PCDATA)>
+
+<!ELEMENT model (#PCDATA)>
+
+<!ELEMENT year (#PCDATA)>
+
+<!ELEMENT VIN (#PCDATA)>
+
+<!ELEMENT runNumber (#PCDATA)>
+
+<!ELEMENT quantity (#PCDATA)>
+
+<!ELEMENT Price_estimate (discount,unitPrice,driverPrice,rate,
+                          surcharge)>
+
+<!ELEMENT discount (#PCDATA)>
+
+<!ELEMENT unitPrice (#PCDATA)>
+
+<!ELEMENT driverPrice (#PCDATA)>
+
+<!ELEMENT rate (#PCDATA)>
+
+<!ELEMENT surcharge (#PCDATA)>
+
+<!ELEMENT special (#PCDATA)>
+<!ATTLIST transactions transactionID CDATA #IMPLIED> 

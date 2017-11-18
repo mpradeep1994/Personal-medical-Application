@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE coments SYSTEM "coments.dtd">
+<comments>
+	<comment>
+		<commentID>001</commentID>
+		<customerID>1000</customerID>
+		<transactionID>5000</transactionID>
+		<locationID>60616</locationID>
+		<TruckID>234323</TruckID>
+		<CommentTime>1210</CommentTime>
+		<comment_data>The service was good</comment_data>
+	</comment>
+	
+	<comment>
+		<commentID>002</commentID>
+		<customerID>1001</customerID>
+		<transactionID>5001</transactionID>
+		<locationID>60616</locationID>
+		<TruckID>987467</TruckID>
+		<CommentTime>0800</CommentTime>
+		<comment_data>The service must be improved</comment_data>
+	</comment>
+</comments>

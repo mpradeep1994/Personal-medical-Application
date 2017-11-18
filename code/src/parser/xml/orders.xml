@@ -1,0 +1,58 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE orders SYSTEM "orders.dtd">
+<orders>
+
+	<order> 
+		<OrderID>OR99483</OrderID>
+		<customerID>1000</customerID>
+		<transactions>
+			<transaction1ID>T001</transaction1ID>
+			<transaction2ID>T002</transaction2ID>		
+		</transactions>
+		<locationID>C1339</locationID>
+		<TruckID>9983</TruckID>
+		<EmployeeID>01</EmployeeID>
+		<isSPecial>No</isSPecial>
+		<PurchaseOrderNumber></PurchaseOrderNumber>
+		<OrderTotalAmount>6500</OrderTotalAmount>
+		<OrderDate>10-02-2016</OrderDate>
+		<CommentTime></CommentTime>
+		<comments></comments>
+	</order>
+	
+	<order> 
+		<OrderID>OR33232</OrderID>
+		<customerID>1001</customerID>
+		<transactions>
+			<transaction1ID>T003</transaction1ID>
+                        <transaction2ID>T002</transaction2ID>	
+		</transactions>
+		<locationID>PH8830</locationID>
+		<TruckID>0091</TruckID>
+		<EmployeeID>9</EmployeeID>
+		<isSPecial>No</isSPecial>
+		<PurchaseOrderNumber></PurchaseOrderNumber>
+		<OrderTotalAmount>5000</OrderTotalAmount>
+		<OrderDate>01-15-2017</OrderDate>
+		<CommentTime></CommentTime>
+		<comments></comments>
+	</order>
+	
+	<order>
+		<OrderID>OR12342</OrderID>
+		<customerID>1001</customerID>
+		<transactions>
+			<transaction1ID>T004</transaction1ID>
+                        <transaction2ID>T002</transaction2ID>	
+		</transactions>
+		<locationID>PH8830</locationID>
+		<TruckID>0091</TruckID>
+		<EmployeeID>9</EmployeeID>
+		<isSPecial>No</isSPecial>
+		<PurchaseOrderNumber></PurchaseOrderNumber>
+		<OrderTotalAmount>3000</OrderTotalAmount>
+		<OrderDate>03-30-2017</OrderDate>
+		<CommentTime></CommentTime>
+		<comments></comments>
+	</order>	
+</orders>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+         <!-- XML Schema Generated from XML Document on Fri Oct 06 2017 23:21:04 GMT-0500 (Central Daylight Time) -->
+         <!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+         <xs:element name="Prices">
+               <xs:complexType>
+                     <xs:sequence>
+                           <xs:element name="pricex" maxOccurs="unbounded">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="priceID">
+                                                
+                                             <xs:simpleType>   
+                                             <xs:restriction base="xs:string">
+                                             <xs:pattern value="[0-9][0-9][0-9]"/>
+                                             </xs:restriction>
+                                             </xs:simpleType>
+                                             </xs:element>
+                                             <xs:element name="customerID" type="xs:int"></xs:element>
+                                             <xs:element name="location">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="locationIDFrom" type="xs:string"></xs:element>
+                                                               <xs:element name="locationIDTO" type="xs:string"></xs:element>
+                                                               <xs:element name="locationCodeFrom" type="xs:int"></xs:element>
+                                                               <xs:element name="locationCodeTo" type="xs:int"></xs:element>
+                                                               <xs:element name="locationNameFrom" type="xs:string"></xs:element>
+                                                               <xs:element name="locationNameTo" type="xs:string"></xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="price" type="xs:int"></xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                     </xs:sequence>
+               </xs:complexType>
+         </xs:element>
+   </xs:schema>

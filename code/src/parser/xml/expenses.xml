@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE expense SYSTEM "expense.dtd">
+<expense>
+	<expense>
+		<ExpenseID>2556</ExpenseID>
+		<EmployeeID>02</EmployeeID>
+		<ExpenseType>Employee</ExpenseType>
+		<PurposeofExpense>Delivery</PurposeofExpense>
+		<AmountSpent>30$</AmountSpent>
+		<Description>Amount spent on food during delivery of cars</Description>
+		<DatePurchased>10-03-2016</DatePurchased>
+		<DateSubmitted>10-09-2016</DateSubmitted>
+		<AdvanceAmount>0</AdvanceAmount>
+		<PaymentMethod>cash</PaymentMethod>
+	</expense>		
+	
+	<expense>
+		<ExpenseID>3102</ExpenseID>
+		<EmployeeID>01</EmployeeID>
+		<ExpenseType>Truck Insurance</ExpenseType>
+		<PurposeofExpense>Weekend work</PurposeofExpense>
+		<AmountSpent>60$</AmountSpent>
+		<Description>Basic pay for working on weekend</Description>
+		<DatePurchased></DatePurchased>
+		<DateSubmitted>12-01-2016</DateSubmitted>
+		<AdvanceAmount>20</AdvanceAmount>
+		<PaymentMethod>cash</PaymentMethod>
+	</expense>
+	
+</expense>

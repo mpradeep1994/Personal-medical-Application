@@ -1,0 +1,89 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE Price SYSTEM "Price.dtd">
+<Prices>
+	<pricex> 
+		<priceID>001</priceID>
+		<customerID>001</customerID>
+		<location>
+			<locationIDFrom>C1339</locationIDFrom>
+			<locationIDTO>LA9930</locationIDTO>
+			<locationCodeFrom>339</locationCodeFrom>
+			<locationCodeTo>930</locationCodeTo>
+			<locationNameFrom>Chicago</locationNameFrom>
+			<locationNameTo>Las Angeles</locationNameTo>
+		</location>
+		<price>1200</price>
+	</pricex>	
+	
+	
+	<pricex> 
+		<priceID>002</priceID>
+		<customerID>001</customerID>
+		<location>
+			<locationIDFrom>C1339</locationIDFrom>
+			<locationIDTO>NY9370</locationIDTO>
+			<locationCodeFrom>339</locationCodeFrom>
+			<locationCodeTo>370</locationCodeTo>
+			<locationNameFrom>Chicago</locationNameFrom>
+			<locationNameTo>New York</locationNameTo>
+		</location>
+		<price>4000</price>
+	</pricex>	
+	
+	
+	<pricex> 
+		<priceID>003</priceID>
+		<customerID>001</customerID>
+		<location>
+			<locationIDFrom>C1339</locationIDFrom>
+			<locationIDTO>HO6733</locationIDTO>
+			<locationCodeFrom>339</locationCodeFrom>
+			<locationCodeTo>733</locationCodeTo>
+			<locationNameFrom>Chicago</locationNameFrom>
+			<locationNameTo>Houston</locationNameTo>
+		</location>
+		<price>700</price>
+	</pricex>
+	
+	<pricex> 
+		<priceID>004</priceID>
+		<customerID>001</customerID>
+		<location>
+			<locationIDFrom>PH8830</locationIDFrom>
+			<locationIDTO>C1339</locationIDTO>
+			<locationCodeFrom>830</locationCodeFrom>
+			<locationCodeTo>339</locationCodeTo>
+			<locationNameFrom>Phoenix</locationNameFrom>
+			<locationNameTo>Chicago</locationNameTo>
+		</location>
+		<price>2000</price>
+	</pricex>
+	
+	<pricex> 
+		<priceID>005</priceID>
+		<customerID>001</customerID>
+		<location>
+			<locationIDFrom>PH8830</locationIDFrom>
+			<locationIDTO>SD8893</locationIDTO>
+			<locationCodeFrom>830</locationCodeFrom>
+			<locationCodeTo>893</locationCodeTo>
+			<locationNameFrom>Phoenix</locationNameFrom>
+			<locationNameTo>San diego</locationNameTo>
+		</location>
+		<price>2200</price>
+	</pricex>
+	
+	<pricex> 
+		<priceID>006</priceID>
+		<customerID>001</customerID> 
+		<location>
+			<locationIDFrom>PH8830</locationIDFrom>
+			<locationIDTO>LA9930</locationIDTO>
+			<locationCodeFrom>830</locationCodeFrom>
+			<locationCodeTo>930</locationCodeTo>
+			<locationNameFrom>Phoenix</locationNameFrom>
+			<locationNameTo>Las Angeles</locationNameTo>
+		</location>
+		<price>3000</price>
+	</pricex>
+</Prices>

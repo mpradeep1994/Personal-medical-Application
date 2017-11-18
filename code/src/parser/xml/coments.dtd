@@ -1,0 +1,22 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT coments (comment)+>
+
+
+<!ELEMENT comment (commentID,customerID,transactionID,locationID,
+                   TruckID,CommentTime,comments)>
+
+<!ELEMENT commentID (#PCDATA)>
+
+<!ELEMENT customerID (#PCDATA)>
+
+<!ELEMENT transactionID (#PCDATA)>
+
+<!ELEMENT locationID (#PCDATA)>
+
+<!ELEMENT TruckID (#PCDATA)>
+
+<!ELEMENT CommentTime (#PCDATA)>
+
+<!ELEMENT comments (#PCDATA)>
+<!ATTLIST coments commentID CDATA #IMPLIED> 

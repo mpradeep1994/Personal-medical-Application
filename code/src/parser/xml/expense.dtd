@@ -1,0 +1,32 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT expense (expense1,expense2)>
+
+<!ELEMENT expense1 (ExpenseID,EmployeeID,ExpenseType,PurposeofExpense,
+                    AmountSpent,Description,DatePurchased,DateSubmitted,
+                    AdvanceAmount,PaymentMethod)>
+
+<!ELEMENT expense2 (ExpenseID,EmployeeID,ExpenseType,PurposeofExpense,
+                    AmountSpent,Description,DatePurchased,DateSubmitted,
+                    AdvanceAmount,PaymentMethod)>
+
+<!ELEMENT ExpenseID (#PCDATA)>
+
+<!ELEMENT EmployeeID (#PCDATA)>
+
+<!ELEMENT ExpenseType (#PCDATA)>
+
+<!ELEMENT PurposeofExpense (#PCDATA)>
+
+<!ELEMENT AmountSpent (#PCDATA)>
+
+<!ELEMENT Description (#PCDATA)>
+
+<!ELEMENT DatePurchased (#PCDATA)>
+
+<!ELEMENT DateSubmitted (#PCDATA)>
+
+<!ELEMENT AdvanceAmount (#PCDATA)>
+
+<!ELEMENT PaymentMethod (#PCDATA)>
+<!ATTLIST expense ExpenseID CDATA #IMPLIED> 

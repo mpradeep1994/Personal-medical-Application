@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+         <!-- XML Schema Generated from XML Document on Fri Oct 06 2017 23:17:34 GMT-0500 (Central Daylight Time) -->
+         <!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+         <xs:element name="orders">
+               <xs:complexType>
+                     <xs:sequence>
+                           <xs:element name="order" maxOccurs="unbounded">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="OrderID" >
+                                                
+                                   <xs:simpleType>
+                                  <xs:restriction base="xs:string">
+                                  <xs:pattern value="[OR]{2}[0-9]{5}"/>
+                                  </xs:restriction>
+                                  </xs:simpleType>
+                                             </xs:element>
+                                             <xs:element name="customerID" type="xs:int"></xs:element>
+                                             <xs:element name="transactions">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="transaction1ID" type="xs:string"></xs:element>
+                                                               <xs:element name="transaction2ID" type="xs:string"></xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="locationID" type="xs:string"></xs:element>
+                                             <xs:element name="TruckID" type="xs:int"></xs:element>
+                                             <xs:element name="EmployeeID" type="xs:int"></xs:element>
+                                             <xs:element name="isSPecial" type="xs:string"></xs:element>
+                                             <xs:element name="PurchaseOrderNumber"></xs:element>
+                                             <xs:element name="OrderTotalAmount" type="xs:int"></xs:element>
+                                             <xs:element name="OrderDate" type="xs:string"></xs:element>
+                                             <xs:element name="CommentTime"></xs:element>
+                                             <xs:element name="comments"></xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                     </xs:sequence>
+               </xs:complexType>
+         </xs:element>
+   </xs:schema>

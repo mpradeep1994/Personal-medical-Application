@@ -1,0 +1,27 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT Trucks (truck1,truck2)>
+
+
+<!ELEMENT truck1 (TruckID,TruckNo,Truckdesc,LicensePlateNo,VIN)>
+
+<!ELEMENT truck2 (TruckID,TruckNo,Truckdesc,LicensePlateNo,VIN)>
+
+<!ELEMENT TruckID (#PCDATA)>
+
+<!ELEMENT TruckNo (#PCDATA)>
+
+<!ELEMENT Truckdesc (Make,Year,Model,Color)>
+
+<!ELEMENT Make (#PCDATA)>
+
+<!ELEMENT Year (#PCDATA)>
+
+<!ELEMENT Model (#PCDATA)>
+
+<!ELEMENT Color (#PCDATA)>
+
+<!ELEMENT LicensePlateNo (#PCDATA)>
+
+<!ELEMENT VIN (#PCDATA)>
+<!ATTLIST Trucks TruckID CDATA #IMPLIED> 

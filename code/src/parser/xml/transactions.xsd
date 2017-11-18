@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+         <!-- XML Schema Generated from XML Document on Fri Oct 06 2017 23:22:41 GMT-0500 (Central Daylight Time) -->
+         <!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+         <xs:element name="transactions">
+               <xs:complexType>
+                     <xs:sequence>
+                           <xs:element name="transaction" maxOccurs="unbounded">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="transactionID" >
+                                                
+                                             <xs:simpleType>   
+                                             <xs:restriction base="xs:string">
+                                             <xs:pattern value="[A-Z][0-9][0-9][0-9]"/>
+                                             </xs:restriction>
+                                             </xs:simpleType>
+                                             </xs:element>
+                                             <xs:element name="OrderID" type="xs:string"></xs:element>
+                                             <xs:element name="priceID" type="xs:int"></xs:element>
+                                             <xs:element name="employeeID" type="xs:int"></xs:element>
+                                             <xs:element name="transactionDate" type="xs:string"></xs:element>
+                                             <xs:element name="transactionDescription" type="xs:string"></xs:element>
+                                             <xs:element name="transactionAmount" type="xs:int"></xs:element>
+                                             <xs:element name="truck_detail">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="TruckID" type="xs:int"></xs:element>
+                                                               <xs:element name="truckNo" type="xs:string"></xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="car_details">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="make" type="xs:string"></xs:element>
+                                                               <xs:element name="model" type="xs:string"></xs:element>
+                                                               <xs:element name="year" type="xs:int"></xs:element>
+                                                               <xs:element name="VIN">
+                                                                  
+                                                                  <xs:simpleType>   
+                                             <xs:restriction base="xs:string">
+                                             <xs:pattern value="[0-9][A-Z][A-Z][A-Z][A-Z][0-9][0-9][A-Z][A-Z][A-Z][A-Z][0-9][0-9][0-9][0-9][0-9][0-9]"/>
+                                             </xs:restriction>
+                                             </xs:simpleType>
+                                                               </xs:element>
+                                                               <xs:element name="runNumber" type="xs:int"></xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="quantity" type="xs:int"></xs:element>
+                                             <xs:element name="Price_estimate">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="discount" type="xs:int"></xs:element>
+                                                               <xs:element name="unitPrice" type="xs:int"></xs:element>
+                                                               <xs:element name="driverPrice" type="xs:int"></xs:element>
+                                                               <xs:element name="rate" type="xs:int"></xs:element>
+                                                               <xs:element name="surcharge" type="xs:int"></xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="special" type="xs:string"></xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                     </xs:sequence>
+               </xs:complexType>
+         </xs:element>
+   </xs:schema>

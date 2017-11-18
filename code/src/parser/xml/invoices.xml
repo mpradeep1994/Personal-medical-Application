@@ -1,0 +1,57 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE invoices SYSTEM "invoices.dtd">
+<invoices>	
+	<invoice> 
+		<invoiceID>INV901</invoiceID>
+		<OrderID>OR99483</OrderID>
+		<CustomerID>1000</CustomerID>
+		<PaymentID>P01</PaymentID>
+		<location>
+			<fromLocationID1>C1339</fromLocationID1>
+			<TolocationID1>LA9930</TolocationID1>
+			<fromlocationID2>C1339</fromlocationID2>
+			<TolocationID2>NY9370</TolocationID2>
+		</location>
+		<Description></Description>
+		<Price>6500</Price>
+		<Quantity>2</Quantity>
+		<Contact_Name>Badri</Contact_Name>
+		<EmailAddress>baddii@hawk.iit.edu</EmailAddress>
+	</invoice>
+	
+	<invoice> 
+		<invoiceID>INV902</invoiceID>
+		<OrderID>OR3323</OrderID>
+		<CustomerID>1001</CustomerID>
+		<PaymentID>P02</PaymentID>
+		<location>
+			<fromLocationID1>PH8830</fromLocationID1>
+                        <fromlocationID2>C1340</fromlocationID2>
+			<TolocationID1>SD8893</TolocationID1>
+                        <TolocationID2>NY9370</TolocationID2>
+		</location>
+		<Description></Description>
+		<Price>5000</Price>
+		<Quantity>1</Quantity>
+		<Contact_Name>dinesh</Contact_Name>
+		<EmailAddress>chandru@gmail.com</EmailAddress>
+	</invoice>
+	
+	<invoice> 
+		<invoiceID>INV903</invoiceID>
+		<OrderID>OR1234</OrderID>
+		<CustomerID>1001</CustomerID>
+		<PaymentID>P03</PaymentID>
+		<location>
+			<fromLocationID1>PH8830</fromLocationID1>
+			<fromlocationID2>C1846</fromlocationID2>
+                        <TolocationID1>C1339</TolocationID1>
+                        <TolocationID2>NY9350</TolocationID2>
+		</location>
+		<Description></Description>
+		<Price>3000</Price>
+		<Quantity>1</Quantity>
+		<Contact_Name>dinesh</Contact_Name>
+		<EmailAddress>chandru@gmail.com</EmailAddress>
+	</invoice>
+</invoices>

@@ -1,0 +1,44 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT orders (order1,order2,order3)>
+
+<!ELEMENT order1 (orderid,customerID,transactions,locationID,TruckID,
+                  EmployeeID,isSPecial,PurchaseOrderNumber,
+                  OrderTotalAmount,OrderDate,CommentTime,comments)>
+
+<!ELEMENT order2 (orderid,customerID,transactions,locationID,TruckID,
+                  EmployeeID,isSPecial,PurchaseOrderNumber,
+                  OrderTotalAmount,OrderDate,CommentTime,comments)>
+
+<!ELEMENT order3 (orderid,customerID,transactions,locationID,TruckID,
+                  EmployeeID,isSPecial,PurchaseOrderNumber,
+                  OrderTotalAmount,OrderDate,CommentTime,comments)>
+
+<!ELEMENT orderid (#PCDATA)>
+
+<!ELEMENT customerID (#PCDATA)>
+
+<!ELEMENT transactions (transaction1ID,transaction2ID?)>
+
+<!ELEMENT transaction1ID (#PCDATA)>
+
+<!ELEMENT transaction2ID (#PCDATA)>
+
+<!ELEMENT locationID (#PCDATA)>
+
+<!ELEMENT TruckID (#PCDATA)>
+
+<!ELEMENT EmployeeID (#PCDATA)>
+
+<!ELEMENT isSPecial (#PCDATA)>
+
+<!ELEMENT PurchaseOrderNumber EMPTY>
+
+<!ELEMENT OrderTotalAmount (#PCDATA)>
+
+<!ELEMENT OrderDate (#PCDATA)>
+
+<!ELEMENT CommentTime EMPTY>
+
+<!ELEMENT comments EMPTY>
+<!ATTLIST orders orderid CDATA #IMPLIED> 

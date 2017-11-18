@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+         <!-- XML Schema Generated from XML Document on Thu Oct 05 2017 12:38:30 GMT-0500 (Central Daylight Time) -->
+         <!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+         <xs:element name="payments">
+               <xs:complexType>
+                     <xs:sequence>
+                           <xs:element name="payment1">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="PaymentID" type="xs:string"></xs:element>
+                                             <xs:element name="OrderID" type="xs:string"></xs:element>
+                                             <xs:element name="PaymentMethodID" type="xs:string"></xs:element>
+                                             <xs:element name="PaymentAmount" type="xs:int"></xs:element>
+                                             <xs:element name="PaymentDate" type="xs:string"></xs:element>
+                                             <xs:element name="ChequeNumber_CreditCard" type="xs:int"></xs:element>
+                                             <xs:element name="card_details">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="CreditCardNumber" >
+                                                                  <xs:simpleType>   
+                                                                     <xs:restriction base="xs:string">
+                                                                     <xs:pattern value="[0-9]{16}"/>
+                                                                     </xs:restriction>
+                                                                  </xs:simpleType>
+
+                                                               </xs:element>
+                                                               <xs:element name="CardholdersName" type="xs:string"></xs:element>
+                                                               <xs:element name="CreditCardExpDate" type="xs:string"></xs:element>
+                                                               <xs:element name="CreditCardAuthorizationNumber" >
+                                                                  <xs:simpleType>   
+                                                                     <xs:restriction base="xs:string">
+                                                                     <xs:pattern value="[0-9]{3}"/>
+                                                                     </xs:restriction>
+                                                                  </xs:simpleType>
+
+                                                               </xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                           <xs:element name="payment2">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="PaymentID" type="xs:string"></xs:element>
+                                             <xs:element name="OrderID" type="xs:string"></xs:element>
+                                             <xs:element name="PaymentMethodID" type="xs:string"></xs:element>
+                                             <xs:element name="PaymentAmount" type="xs:int"></xs:element>
+                                             <xs:element name="PaymentDate" type="xs:string"></xs:element>
+                                             <xs:element name="ChequeNumber_CreditCard" type="xs:int"></xs:element>
+                                             <xs:element name="card_details">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="CreditCardNumber">
+                                                                  <xs:simpleType>   
+                                                                     <xs:restriction base="xs:string">
+                                                                     <xs:pattern value="[0-9]{16}"/>
+                                                                     </xs:restriction>
+                                                                  </xs:simpleType>
+                                                               </xs:element>
+                                                               <xs:element name="CardholdersName" type="xs:string"></xs:element>
+                                                               <xs:element name="CreditCardExpDate" type="xs:string"></xs:element>
+                                                               <xs:element name="CreditCardAuthorizationNumber" >
+                                                                      <xs:simpleType>   
+                                                                     <xs:restriction base="xs:string">
+                                                                     <xs:pattern value="[0-9]{3}"/>
+                                                                     </xs:restriction>
+                                                                  </xs:simpleType>
+                                                               </xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                           <xs:element name="payment3">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="PaymentID" type="xs:string"></xs:element>
+                                             <xs:element name="OrderID" type="xs:string"></xs:element>
+                                             <xs:element name="PaymentMethodID" type="xs:string"></xs:element>
+                                             <xs:element name="PaymentAmount" type="xs:int"></xs:element>
+                                             <xs:element name="PaymentDate" type="xs:string"></xs:element>
+                                             <xs:element name="ChequeNumber_CreditCard" type="xs:int"></xs:element>
+                                             <xs:element name="card_details">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="CreditCardNumber">
+                                                                  <xs:simpleType>   
+                                                                     <xs:restriction base="xs:string">
+                                                                     <xs:pattern value="[0-9]{16}"/>
+                                                                     </xs:restriction>
+                                                                  </xs:simpleType>
+
+                                                               </xs:element>
+                                                               <xs:element name="CardholdersName" type="xs:string"></xs:element>
+                                                               <xs:element name="CreditCardExpDate" type="xs:string"></xs:element>
+                                                               <xs:element name="CreditCardAuthorizationNumber">
+                                                                  <xs:simpleType>   
+                                                                     <xs:restriction base="xs:string">
+                                                                     <xs:pattern value="[0-9]{3}"/>
+                                                                     </xs:restriction>
+                                                                  </xs:simpleType>
+
+                                                               </xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                     </xs:sequence>
+               </xs:complexType>
+         </xs:element>
+   </xs:schema>
+
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+   <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+         <!-- XML Schema Generated from XML Document on Fri Oct 06 2017 23:18:58 GMT-0500 (Central Daylight Time) -->
+         <!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+         <xs:element name="payments">
+               <xs:complexType>
+                     <xs:sequence>
+                           <xs:element name="payment" maxOccurs="unbounded">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="PaymentID" type="xs:string"></xs:element>
+                                             <xs:element name="OrderID" type="xs:string"></xs:element>
+                                             <xs:element name="PaymentMethodID" type="xs:string"></xs:element>
+                                             <xs:element name="PaymentAmount" type="xs:int"></xs:element>
+                                             <xs:element name="PaymentDate" type="xs:string"></xs:element>
+                                             <xs:element name="ChequeNumber_CreditCard" type="xs:int"></xs:element>
+                                             <xs:element name="card_details">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="CreditCardNumber">
+                                                                  
+                                                                  <xs:simpleType>   
+                                                                     <xs:restriction base="xs:string">
+                                                                     <xs:pattern value="[0-9]{16}"/>
+                                                                     </xs:restriction>
+                                                                  </xs:simpleType>
+                                                               </xs:element>
+                                                               <xs:element name="CardholdersName" type="xs:string"></xs:element>
+                                                               <xs:element name="CreditCardExpDate" type="xs:string"></xs:element>
+                                                               <xs:element name="CreditCardAuthorizationNumber" >
+                                                                  
+                                                                  <xs:simpleType>   
+                                                                     <xs:restriction base="xs:string">
+                                                                     <xs:pattern value="[0-9]{3}"/>
+                                                                     </xs:restriction>
+                                                                  </xs:simpleType>
+                                                               </xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                     </xs:sequence>
+               </xs:complexType>
+         </xs:element>
+   </xs:schema>

@@ -1,0 +1,57 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT locations (location1,location2,location3,location4,location5,
+                     location6)>
+
+<!ELEMENT location1 (locationID,locName,locationCode,isAuction,address,
+                     locationcontact)>
+
+<!ELEMENT location2 (locationID,locName,locationCode,isAuction,address,
+                     locationcontact)>
+
+<!ELEMENT location3 (locationID,locName,locationCode,isAuction,address,
+                     locationcontact)>
+
+<!ELEMENT location4 (locationID,locName,locationCode,isAuction,address,
+                     locationcontact)>
+
+<!ELEMENT location5 (locationID,locName,locationCode,isAuction,address,
+                     locationcontact)>
+
+<!ELEMENT location6 (locationID,locName,locationCode,isAuction,address,
+                     locationcontact)>
+
+<!ELEMENT locationID (#PCDATA)>
+
+<!ELEMENT locName (#PCDATA)>
+
+<!ELEMENT locationCode (#PCDATA)>
+
+<!ELEMENT isAuction EMPTY>
+
+<!ELEMENT address (address_street1,address_street2,city,state,
+                   postalCode,country_region)>
+
+<!ELEMENT address_street1 (#PCDATA)>
+
+<!ELEMENT address_street2 (#PCDATA)>
+
+<!ELEMENT city (#PCDATA)>
+
+<!ELEMENT state (#PCDATA)>
+
+<!ELEMENT postalCode (#PCDATA)>
+
+<!ELEMENT country_region (#PCDATA)>
+
+<!ELEMENT locationcontact (location_contact_name,locPhone,locFaxNumber,
+                           locEmail)>
+
+<!ELEMENT location_contact_name (#PCDATA)>
+
+<!ELEMENT locPhone (#PCDATA)>
+
+<!ELEMENT locFaxNumber (#PCDATA)>
+
+<!ELEMENT locEmail (#PCDATA)>
+<!ATTLIST locations locationID CDATA #IMPLIED> 

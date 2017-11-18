@@ -1,0 +1,130 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT customers (customer1,customer2)>
+<!ATTLIST customers
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT customer1 (CustomerID,CustomerTitle,BusinessName,Company_Name,
+                     Contact_Name,address,contactdetails,
+                     alternatecontact,DateEntered,Eligibility,status)>
+<!ATTLIST customer1
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT customer2 (CustomerID,CustomerTitle,BusinessName,Company_Name,
+                     Contact_Name,address,contactdetails,
+                     alternatecontact,DateEntered,Eligibility,status)>
+<!ATTLIST customer2
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT CustomerID (#PCDATA)>
+<!ATTLIST CustomerID
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT CustomerTitle (#PCDATA)>
+<!ATTLIST CustomerTitle
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT BusinessName (#PCDATA)>
+<!ATTLIST BusinessName
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Company_Name (#PCDATA)>
+<!ATTLIST Company_Name
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Contact_Name (#PCDATA)>
+<!ATTLIST Contact_Name
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT address (BillingAddress,City,StateOrProvince,PostalCode,
+                   Country_Region)>
+<!ATTLIST address
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT BillingAddress (#PCDATA)>
+<!ATTLIST BillingAddress
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT City (#PCDATA)>
+<!ATTLIST City
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT StateOrProvince (#PCDATA)>
+<!ATTLIST StateOrProvince
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT PostalCode (#PCDATA)>
+<!ATTLIST PostalCode
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Country_Region (#PCDATA)>
+<!ATTLIST Country_Region
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT contactdetails (contactnumber,FaxNumber,EmailAddress)>
+<!ATTLIST contactdetails
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT contactnumber (PhoneNumber,CellNumber)>
+<!ATTLIST contactnumber
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT FaxNumber (#PCDATA)>
+<!ATTLIST FaxNumber
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT EmailAddress (#PCDATA)>
+<!ATTLIST EmailAddress
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT PhoneNumber (#PCDATA)>
+<!ATTLIST PhoneNumber
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT CellNumber (#PCDATA)>
+<!ATTLIST CellNumber
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT alternatecontact (contact_number,Alternate_Contact_Name)>
+<!ATTLIST alternatecontact
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT contact_number (#PCDATA)>
+<!ATTLIST contact_number
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Alternate_Contact_Name (#PCDATA)>
+<!ATTLIST Alternate_Contact_Name
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT DateEntered (#PCDATA)>
+<!ATTLIST DateEntered
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Eligibility (from,to)>
+<!ATTLIST Eligibility
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT from (#PCDATA)>
+<!ATTLIST from
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT to (to_one,to_two,to_three)>
+<!ATTLIST to
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT to_one (#PCDATA)>
+<!ATTLIST to_one
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT to_two (#PCDATA)>
+<!ATTLIST to_two
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT to_three (#PCDATA)>
+<!ATTLIST to_three
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT status (#PCDATA)>
+<!ATTLIST status
+  xmlns CDATA #FIXED ''>

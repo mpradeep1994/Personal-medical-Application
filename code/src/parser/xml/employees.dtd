@@ -1,0 +1,76 @@
+<?xml encoding="UTF-8"?>
+
+
+<!ELEMENT employees (employee1,employee2,employee3,employee4,employee5,
+                     employee6,employee7)>
+
+<!ELEMENT employee1 (EmployeeID,Name,contact,Job_title,
+                     SocialSecurityNumber,DriverLicenseNumber,Location,
+                     Birthdate,DateHired,Salary,Notes)>
+
+<!ELEMENT employee2 (EmployeeID,Name,contact,Job_title,
+                     SocialSecurityNumber,DriverLicenseNumber,Location,
+                     Birthdate,DateHired,Salary,Notes)>
+
+<!ELEMENT employee3 (EmployeeID,Name,contact,Job_title,
+                     SocialSecurityNumber,DriverLicenseNumber,Location,
+                     Birthdate,DateHired,Salary,Notes)>
+
+<!ELEMENT employee4 (EmployeeID,Name,contact,Job_title,
+                     SocialSecurityNumber,DriverLicenseNumber,Location,
+                     Birthdate,DateHired,Salary,Notes)>
+
+<!ELEMENT employee5 (EmployeeID,Name,contact,Job_title,
+                     SocialSecurityNumber,DriverLicenseNumber,Location,
+                     Birthdate,DateHired,Salary,Notes)>
+
+<!ELEMENT employee6 (EmployeeID,Name,contact,Job_title,
+                     SocialSecurityNumber,DriverLicenseNumber,Location,
+                     Birthdate,DateHired,Salary,Notes)>
+
+<!ELEMENT employee7 (EmployeeID,Name,contact,Job_title,
+                     SocialSecurityNumber,DriverLicenseNumber,Location,
+                     Birthdate,DateHired,Salary,Notes)>
+
+<!ELEMENT EmployeeID (#PCDATA)>
+
+<!ELEMENT Name (FirstName,LastName)>
+
+<!ELEMENT FirstName (#PCDATA)>
+
+<!ELEMENT LastName (#PCDATA)>
+
+<!ELEMENT contact (Email,Extension,HomePhone,CellPhone)>
+
+<!ELEMENT Email (#PCDATA)>
+
+<!ELEMENT Extension (#PCDATA)>
+
+<!ELEMENT HomePhone (#PCDATA)>
+
+<!ELEMENT CellPhone (#PCDATA)>
+
+<!ELEMENT Job_title (#PCDATA)>
+
+<!ELEMENT SocialSecurityNumber (#PCDATA)>
+
+<!ELEMENT DriverLicenseNumber (#PCDATA)>
+
+<!ELEMENT Location (Address,City,State,PostalCode)>
+
+<!ELEMENT Address (#PCDATA)>
+
+<!ELEMENT City (#PCDATA)>
+
+<!ELEMENT State (#PCDATA)>
+
+<!ELEMENT PostalCode (#PCDATA)>
+
+<!ELEMENT Birthdate (#PCDATA)>
+
+<!ELEMENT DateHired (#PCDATA)>
+
+<!ELEMENT Salary (#PCDATA)>
+
+<!ELEMENT Notes (#PCDATA)>
+<!ATTLIST employees EmployeeID CDATA #IMPLIED> 

@@ -1,0 +1,138 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE locations SYSTEM "locations.dtd">
+<locations>
+		<location>  
+			<locationID>C1339</locationID>
+			<!--CustomerID>1001</CustomerID  Not sure if customer id will be here -->
+			<locName>IITChicago</locName>
+			<locationCode>339</locationCode>
+			<isAuction></isAuction>
+			<address>
+				<address_street1>123 6th street melbourne</address_street1>
+				<address_street2></address_street2>
+				<city>Chicago</city>
+				<state>Illinois</state>
+				<postalCode>60616</postalCode>
+				<country_region>USA</country_region>
+			</address>
+			<locationcontact>
+				<location_contact_name>Prasanna</location_contact_name>
+				<locPhone>9884093847</locPhone>
+				<locFaxNumber>086637</locFaxNumber>
+				<locEmail>iitchicago@gmail.com</locEmail>
+			</locationcontact>
+		</location>
+		
+		<location>  
+			<locationID>SD8893</locationID>
+			<!--CustomerID>1001</CustomerID--> 
+			<locName>IITSanDiego</locName>
+			<locationCode>893</locationCode>
+			<isAuction></isAuction>
+			<address>
+				<address_street1>71 pilgrim avenue</address_street1>
+				<address_street2>chevy chase</address_street2>
+				<city>San Diego</city>
+				<state>California</state>
+				<postalCode>66278</postalCode>
+				<country_region>USA</country_region>
+			</address>
+			<locationcontact>
+				<location_contact_name>James</location_contact_name>
+				<locPhone>8894822748</locPhone>
+				<locFaxNumber>9827457</locFaxNumber>
+				<locEmail>iitsd@gmail.com</locEmail>
+			</locationcontact>
+		</location>
+				
+		<location>  
+			<locationID>LA9930</locationID>
+			<!--CustomerID>1001</CustomerID--> 
+			<locName>IITLosAngeles</locName>
+			<locationCode>930</locationCode>
+			<isAuction></isAuction>
+			<address>
+				<address_street1>70 Bowman street</address_street1>
+				<address_street2>south windsor</address_street2>
+				<city>Los Angeles</city>
+				<state>California</state>
+				<postalCode>99382</postalCode>
+				<country_region>USA</country_region>
+			</address>
+			<locationcontact>
+				<location_contact_name>Mike</location_contact_name>
+				<locPhone>9938200938</locPhone>
+				<locFaxNumber>774399</locFaxNumber>
+				<locEmail>iitla@gmail.com</locEmail>
+			</locationcontact>
+		</location>
+		
+		
+		<location>  
+			<locationID>NY9370</locationID>
+			<!--CustomerID>1001</CustomerID--> 
+			<locName>IITNewYork</locName>
+			<locationCode>370</locationCode>
+			<isAuction></isAuction>
+			<address>
+				<address_street1>312 Mason street</address_street1>
+				<address_street2>union square</address_street2>
+				<city>New York</city>
+				<state>New York</state>
+				<postalCode>22938</postalCode>
+				<country_region>USA</country_region>
+			</address>
+			<locationcontact>
+				<location_contact_name>Jackson</location_contact_name>
+				<locPhone>9938266384</locPhone>
+				<locFaxNumber>993822</locFaxNumber>
+				<locEmail>iitny@gmail.com</locEmail>
+			</locationcontact>
+		</location>
+		
+		
+		<location>  
+			<locationID>HO6733</locationID>
+			<!--CustomerID>1001</CustomerID--> 
+			<locName>IITHouston</locName>
+			<locationCode>733</locationCode>
+			<isAuction></isAuction>
+			<address>
+				<address_street1>916 kirney street</address_street1>
+				<address_street2>nostalgio</address_street2>
+				<city>Houston</city>
+				<state>Texas</state>
+				<postalCode>99382</postalCode>
+				<country_region>USA</country_region>
+			</address>
+			<locationcontact>
+				<location_contact_name>Kiesil</location_contact_name>
+				<locPhone>8877336277</locPhone>
+				<locFaxNumber>098275</locFaxNumber>
+				<locEmail>iitho@gmail.com</locEmail>
+			</locationcontact>
+		</location>
+		
+		<location>  
+			<locationID>PH8830</locationID>
+			<!--CustomerID>1001</CustomerID--> 
+			<locName>IITPhoenix</locName>
+			<locationCode>830</locationCode>
+			<isAuction></isAuction>
+			<address>
+				<address_street1>2640 steiner street</address_street1>
+				<address_street2>russion hill</address_street2>
+				<city>Phoenix</city>
+				<state>Arizona</state>
+				<postalCode>77665</postalCode>
+				<country_region>USA</country_region>
+			</address>
+			<locationcontact>
+				<location_contact_name>Ricardo</location_contact_name>
+				<locPhone>9938277738</locPhone>
+				<locFaxNumber>0039483</locFaxNumber>
+				<locEmail>iitph@gmail.com</locEmail>
+			</locationcontact>
+		</location>
+		
+</locations>	

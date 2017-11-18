@@ -1,0 +1,38 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT payments (payment1,payment2,payment3)>
+
+
+<!ELEMENT payment1 (PaymentID,OrderID,PaymentMethodID,PaymentAmount,
+                    PaymentDate,ChequeNumber_CreditCard,card_details)>
+
+<!ELEMENT payment2 (PaymentID,OrderID,PaymentMethodID,PaymentAmount,
+                    PaymentDate,ChequeNumber_CreditCard,card_details)>
+
+<!ELEMENT payment3 (PaymentID,OrderID,PaymentMethodID,PaymentAmount,
+                    PaymentDate,ChequeNumber_CreditCard,card_details)>
+
+<!ELEMENT PaymentID (#PCDATA)>
+
+<!ELEMENT OrderID (#PCDATA)>
+
+<!ELEMENT PaymentMethodID (#PCDATA)>
+
+<!ELEMENT PaymentAmount (#PCDATA)>
+
+<!ELEMENT PaymentDate (#PCDATA)>
+
+<!ELEMENT ChequeNumber_CreditCard (#PCDATA)>
+
+<!ELEMENT card_details (CreditCardNumber,CardholdersName,
+                        CreditCardExpDate,
+                        CreditCardAuthorizationNumber)>
+
+<!ELEMENT CreditCardNumber (#PCDATA)>
+
+<!ELEMENT CardholdersName (#PCDATA)>
+
+<!ELEMENT CreditCardExpDate (#PCDATA)>
+
+<!ELEMENT CreditCardAuthorizationNumber (#PCDATA)>
+<!ATTLIST payments PaymentID CDATA #IMPLIED> 

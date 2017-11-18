@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+         <!-- XML Schema Generated from XML Document on Fri Oct 06 2017 22:58:42 GMT-0500 (Central Daylight Time) -->
+         <!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+         <xs:element name="employees">
+               <xs:complexType>
+                     <xs:sequence>
+                           <xs:element name="employee" maxOccurs="unbounded">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="EmployeeID" >
+                                                
+                                                <xs:simpleType> 
+                                                   <xs:restriction base="xs:string">
+                                                   <xs:pattern value="[0-9][0-9]"/>
+                                                   </xs:restriction>
+                                                 </xs:simpleType>
+                                             </xs:element>
+                                             <xs:element name="Name">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="FirstName" type="xs:string"></xs:element>
+                                                               <xs:element name="LastName" type="xs:string"></xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="contact">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="Email" type="xs:string"></xs:element>
+                                                               <xs:element name="Extension" type="xs:int"></xs:element>
+                                                               <xs:element name="HomePhone" >
+                                                                  
+                                                                 <xs:simpleType> 
+                                                                     <xs:restriction base="xs:string">
+                                                                     <xs:pattern value="[0-9]{10}"/>
+                                                                     </xs:restriction>
+                                                                  </xs:simpleType>
+                                                               </xs:element>
+                                                               <xs:element name="CellPhone" >
+                                                                  
+                                                                 <xs:simpleType> 
+                                                                     <xs:restriction base="xs:string">
+                                                                     <xs:pattern value="[0-9]{10}"/>
+                                                                     </xs:restriction>
+                                                                  </xs:simpleType>
+                                                               </xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="Job_title" type="xs:string"></xs:element>
+                                             <xs:element name="SocialSecurityNumber" type="xs:int"></xs:element>
+                                             <xs:element name="DriverLicenseNumber" type="xs:string"></xs:element>
+                                             <xs:element name="Location">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="Address" type="xs:string"></xs:element>
+                                                               <xs:element name="City" type="xs:string"></xs:element>
+                                                               <xs:element name="State" type="xs:string"></xs:element>
+                                                               <xs:element name="PostalCode" type="xs:int"></xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="Birthdate" type="xs:date"></xs:element>
+                                             <xs:element name="DateHired" type="xs:date"></xs:element>
+                                             <xs:element name="Salary" type="xs:int"></xs:element>
+                                             <xs:element name="Notes" type="xs:string"></xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                     </xs:sequence>
+               </xs:complexType>
+         </xs:element>
+   </xs:schema>

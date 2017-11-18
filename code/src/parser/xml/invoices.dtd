@@ -1,0 +1,48 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT Invoices (invoice1,invoice2,invoice3)>
+<!ELEMENT invoice1 (invoiceID,OrderID,CustomerID,PaymentID,location,
+                    Description,Price,Quantity,Contact_Name,
+                    EmailAddress)>
+<!ELEMENT invoice2 (invoiceID,OrderID,CustomerID,PaymentID,location,
+                    Description,Price,Quantity,Contact_Name,
+                    EmailAddress)>
+
+<!ELEMENT invoice3 (invoiceID,OrderID,CustomerID,PaymentID,location,
+                    Description,Price,Quantity,Contact_Name,
+                    EmailAddress)>
+
+<!ELEMENT invoiceID (#PCDATA)>
+
+<!ELEMENT OrderID (#PCDATA)>
+
+<!ELEMENT CustomerID (#PCDATA)>
+
+<!ELEMENT PaymentID (#PCDATA)>
+
+<!ELEMENT location ((fromLocationID1,TolocationID1,fromlocationID2,
+                     TolocationID2)
+                    |(fromLocationID,TolocationID))>
+
+<!ELEMENT fromLocationID1 (#PCDATA)>
+
+<!ELEMENT TolocationID1 (#PCDATA)>
+
+<!ELEMENT fromlocationID2 (#PCDATA)>
+
+<!ELEMENT TolocationID2 (#PCDATA)>
+
+<!ELEMENT fromLocationID (#PCDATA)>
+
+<!ELEMENT TolocationID (#PCDATA)>
+
+<!ELEMENT Description EMPTY>
+
+<!ELEMENT Price (#PCDATA)>
+
+<!ELEMENT Quantity (#PCDATA)>
+
+<!ELEMENT Contact_Name (#PCDATA)>
+
+<!ELEMENT EmailAddress (#PCDATA)>
+<!ATTLIST Invoices invoiceID CDATA #IMPLIED> 
