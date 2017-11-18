@@ -1,4 +1,4 @@
-# Personal-medical-Application
+# Personal Medical Application
 
 
 Its a Personal Health Tracking System where a family can keep track of the prescribed medicine that has to be taken every day and the family members can also track and view the prescribed medicine for the
